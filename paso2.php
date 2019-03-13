@@ -1,7 +1,7 @@
 <?php
 $nombre = $_POST['Nombre'];
 $apellido = $_POST['Apellido'];
-$post = $_POST['TipoPost'];
+$post = $_POST['post'];
 ?>
 <!DOCTYPE HTML>
 <html lang="en-us">
@@ -27,7 +27,7 @@ $post = $_POST['TipoPost'];
                 <select name="TipoPost" id="">
                     <option value="1200x627">1200x627</option>
                     <option value="1080x1080">1080x1080</option>
-                    <option value="800x400">800x400</option
+                    <option value="800x400">800x400</option>
                 </select>
                 <input id="button" type="submit" value=paso3">
             </form>
