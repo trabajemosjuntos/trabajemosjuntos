@@ -20,7 +20,7 @@ $post = $_POST['TipoPost'];
         </header>
         <nav></nav>
         <main>
-            <form action="paso3.php" method="POST">
+            <form action="paso3.php" method="post">
                 <label for="">Texto del Post:</label>
                 <input type="text" name="Copy">
                 <label for="">Medidas del post:</label>
